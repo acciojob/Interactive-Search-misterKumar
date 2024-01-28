@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+body{
+	background-color: #765bee;
+}
+.search{
+	text-align:center;
+	margin-top:50%;
+	
+}
+
+.input{
+	color: #7a7a7b;
+	padding:10px;
+}
+
+.btn{
+	height:39px;
+	border:none;
+	background-color:white;
+}
+
+.active{
+	border:2px solid #a998f7;
+}
