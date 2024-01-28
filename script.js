@@ -1,8 +1,11 @@
 //your JS code here. If required.
-const btn = document.querySelector(".btn");
-const search = document.querySelector(".search");
+function activeSearch(){
+	let searchComponent = document.getElementById('searchComponent');
+	let searchInput = document.getElementById('searchInput');
 
-
-search.addEventListener("focus",()=>{
-	search.classList.add("active");
-})
+	if(searchComponent && searchInput)
+	{
+		searchComponent.classList.add('active');
+		searchInput.focus();
+	}
+}
